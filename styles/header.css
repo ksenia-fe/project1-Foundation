@@ -1,16 +1,79 @@
 .header{
-  width: 1140px;
-  height: 62px;
-  margin: auto;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
   display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 
 .navigation{
-  margin-left: auto;
-  margin-right: 75px;
-  margin-top: 7px;
+  display: none;
 }
-/* redo */
+
+.header__button{
+  display: none;
+}
+
+.header__menu-button{
+  width: 58px;
+  border: none;
+  border-left: 1px solid rgb(0, 0, 0, 0.15);
+  height: 100%;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.header__menu-icon{
+  width: 18px;
+  height: 13px;
+  display: inline-block;
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+}
+
+@media screen and (min-width: 400px){
+  .navigation{
+    display: block;
+    margin-left: auto;
+    margin-right: 75px;
+    margin-top: 7px;
+  }
+
+  .header{
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    background-color: #F3C6BD;
+  }
+
+  .header__menu-button{
+    display: none;
+  }
+
+  .top-section{
+    background-color: #F3C6BD;
+    padding-top: 39px;
+  }
+
+  .header__button{
+    display: block;
+  }
+
+  .logo__description{
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D;
+    opacity: 0.6;
+  }
+
+  .logo__image{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+}
+
 .navigation__item{
   color: #2b292d;
   text-decoration: none;
@@ -40,9 +103,9 @@
 }
 
 .logo__image{
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  margin-right: 13px;
 }
 
 .logo__name{
@@ -52,11 +115,7 @@
 }
 
 .logo__description{
-  font-size: 18px;
-  line-height: 25px;
-  /* color: #7B6867; */
-  color: #2B292D;
-  opacity: 0.6;
+  display: none;
 }
 
 .logo__text{
@@ -67,5 +126,4 @@
 
 .top-section{
   background-color: #F3C6BD;
-  padding-top: 39px;
 }
