@@ -1,0 +1,92 @@
+.audiences{
+  width: 100%;
+  padding: 0 130px;
+  margin: auto;
+  margin-top: 81px;
+  padding-bottom: 77px;
+  background-color: rgb(0, 161, 198, 0.07);
+}
+
+.audience{
+  width: 555px;
+  display: flex;
+  flex-direction: column;
+  margin: 108px auto 0 auto;
+}
+
+.audience__subtitle{
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.audience__title{
+  margin: 0;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.audience__description{
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.audience__actions{
+  margin-top: 34px;
+  display: flex;
+  margin:0 auto;
+}
+
+.learn-more-btn{
+  width: 158px;
+  height: 48px;
+  background-color: #fff;
+  color: #3040C4;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 129px auto 110px auto;
+}
+
+.user-card{
+  width: 262px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.user-card_selected{
+  background-color: #3141C5;
+  color: #fff;
+}
+
+.user-card__icon{
+  text-align: center;
+}
+
+.user-card__name{
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 22px;
+  margin-bottom: 33px;
+}
+
