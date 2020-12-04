@@ -475,10 +475,10 @@
 }
 .user-card_selected {
   background-color: #3141C5;
-  color: #fff;
 }
 .user-card__icon {
   text-align: center;
+  margin-bottom: 0;
 }
 .user-card__name {
   text-align: center;
