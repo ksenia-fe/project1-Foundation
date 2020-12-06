@@ -386,6 +386,7 @@
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
+    letter-spacing: -0.5px;
   }
 }
 .audience-info__description {
@@ -398,6 +399,7 @@
 @media screen and (min-width: 1400px) {
   .audience-info__description {
     margin-top: 30px;
+    margin-bottom: 34px;
   }
 }
 .audience-info__actions {
@@ -437,6 +439,7 @@
   .learn-more-btn {
     width: 158px;
     margin-left: 10px;
+    margin-top: 0px;
   }
 }
 
@@ -446,7 +449,7 @@
 @media screen and (min-width: 1400px) {
   .action-button_mobile {
     width: 160px;
-    margin-top: 12px;
+    margin-top: 0px;
   }
 }
 
@@ -460,7 +463,7 @@
   .cards {
     flex-direction: row;
     justify-content: space-between;
-    margin: 129px auto 110px auto;
+    margin: 111px auto 110px auto;
   }
 }
 
