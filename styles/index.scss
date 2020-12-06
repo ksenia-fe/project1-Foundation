@@ -8,6 +8,7 @@
 @import 'features.scss';
 @import 'footer.scss';
 @import 'customers.scss';
+@import 'order.scss';
 
 
 *{
@@ -22,12 +23,9 @@ html{
 
 .page{
   width: 100%;
-  overflow-x: hidden;
-}
 
-@media screen and (min-width:400px){
-  .page{
-    width: 1400px;
+  @include for-large-up{
+    max-width: 1400px;
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
