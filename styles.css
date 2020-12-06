@@ -962,11 +962,11 @@
 }
 .feedback__image {
   margin-top: 40px;
+  max-width: 273px;
 }
 @media screen and (min-width: 1400px) {
   .feedback__image {
     position: absolute;
-    max-width: 273px;
     margin-top: 0;
     right: 26px;
     bottom: 0;

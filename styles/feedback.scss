@@ -86,10 +86,10 @@
 
   &__image{
     margin-top: 40px;
+    max-width: 273px;
 
     @include for-large-up{
       position: absolute;
-      max-width: 273px;
       margin-top: 0;
       right: 26px;
       bottom: 0;
