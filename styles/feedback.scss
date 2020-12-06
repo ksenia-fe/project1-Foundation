@@ -1,0 +1,98 @@
+.feedback{
+  padding: 39px 15px 50px 15px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e3e3e3;
+
+  @include for-large-up{
+    position: relative;
+    padding: 0;
+    padding-bottom: 66px;
+    border-bottom: 1px solid #0000001A;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: start;
+    color: #3142C6;
+    margin: 0;
+
+    @include for-large-up{
+      text-align: center;
+    }
+  }
+
+  &__description{
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 29px;
+
+    @include for-large-up{
+      text-align: center;
+      max-width: 750px;
+      margin: 28px auto 0 auto;
+    }
+  }
+
+  &__director-name{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 32px;
+
+    @include for-large-up{
+      text-align: center;
+      margin: 34px auto 0 auto;
+    }
+  }
+
+  &__director-position{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    opacity: 0.6;
+
+    @include for-large-up{
+      margin: 0 auto;
+    }
+  }
+
+  &__slider{
+
+    display: flex;
+    margin: 40px auto 0 auto;
+
+    @include for-large-up{
+      margin: 38px auto 0 auto;
+    }
+
+    & span:first-child{
+      margin-left: 0;
+      background-color: #3142C6;
+    }
+
+    &-dot{
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color: rgb(43, 41, 45, 0.2);
+      border-radius: 50%;
+      margin-left: 19px;
+    }
+  }
+
+  &__image{
+    margin-top: 40px;
+
+    @include for-large-up{
+      position: absolute;
+      max-width: 273px;
+      margin-top: 0;
+      right: 26px;
+      bottom: 0;
+    }
+  }
+}
