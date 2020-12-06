@@ -427,7 +427,6 @@
   width: 290px;
   height: 48px;
   background-color: #fff;
-  color: #3040C4;
   border: none;
   border-radius: 2px;
   font-weight: 700;
@@ -490,7 +489,7 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 22px;
+  margin-top: 18px;
   margin-bottom: 33px;
 }
 @media screen and (min-width: 1400px) {
