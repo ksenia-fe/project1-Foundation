@@ -847,13 +847,13 @@
   .order {
     padding: 73px 0 72px 0;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     padding-left: 224px;
     padding-right: 228px;
   }
   .order__details {
     max-width: 555px;
+    margin-top: 33px;
   }
   .order__illustration {
     max-width: 269px;
@@ -868,13 +868,24 @@
     max-width: 200px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .order__illustration {
+    margin-top: 0;
+  }
+}
 .order__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
+  margin: 0;
   margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .order__title {
+    text-align: start;
+  }
 }
 .order__text {
   font-size: 22px;
@@ -926,6 +937,8 @@
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
+  margin: 0;
+  margin-top: 10px;
 }
 .order__terms-link {
   color: #3040C4;
