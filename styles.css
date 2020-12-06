@@ -845,11 +845,10 @@
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 73px 0 72px 0;
+    padding: 73px 0 68px 0;
     display: flex;
     align-items: flex-start;
-    padding-left: 224px;
-    padding-right: 228px;
+    justify-content: center;
   }
   .order__details {
     max-width: 555px;
@@ -862,6 +861,7 @@
 }
 .order__illustration-centered {
   text-align: center;
+  margin: 0;
 }
 @media screen and (max-width: 1399px) {
   .order__illustration {
@@ -885,6 +885,7 @@
 @media screen and (min-width: 1400px) {
   .order__title {
     text-align: start;
+    margin-top: 0;
   }
 }
 .order__text {

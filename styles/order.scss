@@ -3,11 +3,10 @@
   background-color: #F4F5F7;
 
   @include for-large-up{
-    padding: 73px 0 72px 0;
+    padding: 73px 0 68px 0;
     display: flex;
     align-items: flex-start;
-    padding-left: 224px;
-    padding-right: 228px;
+    justify-content: center;
 
     &__details{
       max-width: 555px;
@@ -23,6 +22,7 @@
 
   &__illustration-centered{
     text-align: center;
+    margin: 0;
   }
 
   &__illustration{
@@ -47,6 +47,7 @@
 
     @include for-large-up{
       text-align: start;
+      margin-top: 0;
     }
   }
 
