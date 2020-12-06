@@ -344,14 +344,14 @@
   max-width: 100%;
 }
 
-.audiences {
+.audience {
   width: 100%;
   padding: 40px 15px 50px 15px;
   margin: auto;
   background-color: rgba(0, 161, 198, 0.07);
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     width: 100%;
     padding: 0 130px;
     margin: auto;
@@ -361,18 +361,18 @@
   }
 }
 
-.audience {
+.audience-info {
   display: flex;
   flex-direction: column;
 }
-.audience__subtitle {
+.audience-info__subtitle {
   margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   text-align: center;
 }
-.audience__title {
+.audience-info__title {
   margin: 0;
   margin-top: 17px;
   font-weight: 700;
@@ -382,31 +382,31 @@
   letter-spacing: -0.5px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__title {
+  .audience-info__title {
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
   }
 }
-.audience__description {
+.audience-info__description {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
   margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__description {
+  .audience-info__description {
     margin-top: 30px;
   }
 }
-.audience__actions {
+.audience-info__actions {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
 @media screen and (min-width: 1400px) {
-  .audience__actions {
+  .audience-info__actions {
     margin-top: 34px;
     display: flex;
     flex-direction: row;
@@ -414,7 +414,7 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .audience {
+  .audience-info {
     width: 555px;
     display: flex;
     flex-direction: column;
