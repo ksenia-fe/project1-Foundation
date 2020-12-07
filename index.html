@@ -11,8 +11,7 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -34,7 +33,7 @@
           <a href="#" class="navigation__item">Stories</a>
           <a href="#" class="navigation__item">Library<img class="navigation__arrow" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png"></img></a>
         </nav>
-        <button class="action-button header__button">Get Started</button>
+        <button class="header__button action-button">Get Started</button>
         <button class="header__menu-button"><span class="header__menu-icon"></span></button>
       </header>
 
@@ -45,7 +44,7 @@
           <h1 class="headline__title">Build stunning websites & apps.</h1>
         <p class="headline__description">Create live segments and target the right people for messages based on their behaviors.</p>
         <div class="headline__actions">
-          <button class="action-button headline__action-btn">Get Started</button>
+          <button class="headline__action-btn action-button">Get Started</button>
           <button class="headline__learn-more-btn headline__action-btn">Learn More</button>
         </div>
         </div>
@@ -155,9 +154,9 @@
       <!-- INBOX -->
 
       <section class="inbox">
-        <div class="banner">
-          <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/wheel.png" alt="wheel" class="inbox__illustration">
-          <p class="inbox__caption">Connect with customers and grow faster</p>
+        <div class="inbox__banner">
+          <img class="inbox__banner-illustration" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/wheel.png" alt="wheel">
+          <p class="inbox__banner-caption">Connect with customers and grow faster</p>
         </div>
         <div class="inbox__info">
           <h4 class="inbox__subtitle">Team Inbox</h4>
@@ -167,7 +166,10 @@
           <p class="review__text">“Great widgets. Great selection. Great design and <b>easy to implement.</b> Definitely a huge time saver for a web developer!”</p>
           <div class="review__client">
             <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-avatar.png" alt="user image" class="review__client-image">
-            <p class="review__client-name"><b>Viella Malkovich</b><br>Creative Director at Johnson</p>
+            <div class="review__client-name">
+              <p></p><b>Viella Malkovich</b><br>
+              Creative Director at Johnson</p>
+            </div>
           </div>
         </div>
         </div>
@@ -186,21 +188,21 @@
           </div>
         </div>
         <div class="cards">
-          <div class="user-card ">
-            <p class="user-card__icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png" alt="Developer icon"></p>
-            <span class="user-card__name">Developers</span>
+          <div class="cards__user-card">
+            <p class="cards__user-card-icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png" alt="Developer icon"></p>
+            <span class="cards__user-card-name">Developers</span>
           </div>
-          <div class="user-card">
-            <p class="user-card__icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png" alt="TV image"></p>
-            <span class="user-card__name">Entertainment</span>
+          <div class="cards__user-card">
+            <div class="cards__user-card-icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png" alt="TV image"></div>
+            <span class="cards__user-card-name">Entertainment</span>
           </div>
-          <div class="user-card ">
-            <p class="user-card__icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png" alt="Athlet image"></p>
-            <span class="user-card__name">Athletes</span>
+          <div class="cards__user-card">
+            <div class="cards__user-card-icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png" alt="Athlet image"></div>
+            <span class="cards__user-card-name">Athletes</span>
           </div>
-          <div class="user-card ">
-            <p class="user-card__icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png" alt="Creators icon"></p>
-            <span class="user-card__name">Creators</span>
+          <div class="cards__user-card">
+            <div class="cards__user-card-icon"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png" alt="Creators icon"></div>
+            <span class="cards__user-card-name">Creators</span>
           </div>
         </div>
       </section>
@@ -240,8 +242,10 @@
           entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for 
           sales, marketing, and support”
         </p>
-        <p class="feedback__director-name"><b>Viella Malkovich</b><br>
+        <div class="feedback__director-name">
+          <p></p><b>Viella Malkovich</b><br>
           Creative Director at Johnson</p>
+        </div>
         <div class="feedback__slider">
           <span class="feedback__slider-dot"></span>
           <span class="feedback__slider-dot"></span>

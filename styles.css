@@ -465,8 +465,7 @@
     margin: 111px auto 110px auto;
   }
 }
-
-.user-card {
+.cards__user-card {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
@@ -475,18 +474,18 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
-.user-card:hover {
+.cards__user-card:hover {
   background-color: #3141C5;
 }
-.user-card:hover .user-card__name {
+.cards__user-card:hover .cards__user-card-name {
   color: #fff;
 }
-.user-card__icon {
+.cards__user-card-icon {
   text-align: center;
   margin-bottom: 0;
   margin-top: 22px;
 }
-.user-card__name {
+.cards__user-card-name {
   text-align: center;
   font-weight: bold;
   font-size: 22px;
@@ -495,7 +494,7 @@
   margin-bottom: 33px;
 }
 @media screen and (min-width: 1400px) {
-  .user-card {
+  .cards__user-card {
     width: 262px;
     margin-top: 0;
     background-color: #fff;
@@ -612,10 +611,10 @@
     margin-top: 27px;
   }
 }
-.inbox__illustration {
+.inbox__banner-illustration {
   max-width: 100%;
 }
-.inbox__caption {
+.inbox__banner-caption {
   display: none;
   font-size: 14px;
   line-height: 22px;
@@ -624,7 +623,7 @@
   margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__caption {
+  .inbox__banner-caption {
     display: block;
   }
 }
@@ -710,6 +709,7 @@
 .review__client {
   margin-top: 26px;
   display: flex;
+  align-items: center;
 }
 .review__client-image {
   width: 40px;
