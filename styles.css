@@ -314,7 +314,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143px;
+  letter-spacing: -0.4px;
 }
 .tip__description {
   margin: 0;
@@ -372,7 +372,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143px;
+  letter-spacing: -0.4px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
@@ -644,7 +644,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143px;
+  letter-spacing: -0.4px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__title {
