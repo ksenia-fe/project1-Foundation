@@ -1,12 +1,12 @@
 .about{
-  width: 100%;
   padding: 46px 15px;
-  background-color: #F4F5F7;
+  width: 100%;
+  background-color: $light-grey;
 
   @include for-large-up {
-    padding: 77px 130px 76px 130px;
     display: flex;
     justify-content: space-between;
+    padding: 77px 130px 76px 130px;
   }
 }
 
@@ -21,17 +21,17 @@
   }
   
   &__title{
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;
-    margin: 0;
   }
   
   &__text{
+    margin-top: 6px;
+    margin-bottom: 0;
     font-size: 22px;
     line-height: 32px;
-    margin-bottom: 0;
-    margin-top: 6px;
   }
 
   @include for-large-up {

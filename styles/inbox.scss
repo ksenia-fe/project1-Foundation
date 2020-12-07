@@ -1,14 +1,14 @@
 .inbox{
   padding: 50px 15px;
-  background-color: #FCF0E3;
+  background-color: $inbox-bacground-color;
 
   @include for-large-up{
+    display: flex;
     margin-top: 103px;
+    padding: 115px 99px 101px 193px;
     width: 100%;
     min-width: 140px;
     min-height: 790px;
-    display: flex;
-    padding: 115px 99px 101px 193px;
   }
 
   &__banner{
@@ -24,11 +24,11 @@
   
     &-caption{
       display: none;
+      margin-top: 15px;
       font-size: 14px;
       line-height: 22px;
       text-align: center;
       opacity: 0.6;
-      margin-top: 15px;
   
       @include for-large-up{
         display: block;
@@ -38,8 +38,8 @@
 
   &__info{
     @include for-large-up{
-      max-width: 519px;
       margin-left: auto;
+      max-width: 519px;
     }
   }
 
@@ -66,10 +66,10 @@
     letter-spacing: -0.357143px;
 
     @include for-large-up{
+      margin-top: 24px;
       font-size: 56px;
       line-height: 56px;
       letter-spacing: -0.5px;
-      margin-top: 24px;
     }
   }
 
@@ -81,8 +81,8 @@
     line-height: 34px;
 
     @include for-large-up{
-      width: 461px;
       margin-top: 30px;
+      width: 461px;
     }
   }
 
@@ -96,19 +96,19 @@
 }
 
 .review{
-  background-color: #fff;
   padding: 30px 20px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-bottom: 4px solid #0185D0;
+  background-color: $standart-backround-color;
+  box-shadow: 0px 1px 3px #0000001a, 0px 4px 6px #0000000d, inset 0px 1px 0px #ffffff1a;
+  border-bottom: 4px solid #0185d0;
 
   @include for-large-up{
     padding: 30px;
   }
 
   &__text{
+    margin: 0;
     font-size: 20px;
     line-height: 20px;
-    margin: 0;
 
     @include for-large-up{
       font-size: 20px;
@@ -117,15 +117,15 @@
   }
 
   &__client{
-    margin-top: 26px;
     display: flex;
     align-items: center;
+    margin-top: 26px;
   }
 
   &__client-image{
+    margin-right: 11px;
     width: 40px;
     height: 40px;
-    margin-right: 11px;
   }
 
   &__client-name{

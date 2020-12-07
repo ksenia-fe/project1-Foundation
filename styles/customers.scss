@@ -17,23 +17,23 @@
     display: flex;
 
     @include for-large-up {
-      flex-grow: 1;
       justify-content: space-around;
+      flex-grow: 1;
     }
   }
   
   &__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     width: 107px;
     height: 94px;
     border-bottom: 1px solid #e3e3e3;
     border-right: 1px solid #e3e3e3;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
 
     @include for-large-up {
-      border: none;
+      border: 0;
     }
   }
   
